@@ -1,3 +1,4 @@
+package LeetCodes;
 import java.util.HashMap;
 
 class Problem1 {
