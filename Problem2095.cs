@@ -19,11 +19,7 @@ public class Solution {
         for(int i = 0; i < len-1; i++){
             temp = temp.next;
         }
-
-        ListNode target = temp.next;
-        target = target.next;
-        temp.next = target;
-
+        temp.next = temp.next.next;
         return head;  
     }
     public int size(ListNode temp){
